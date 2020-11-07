@@ -20,7 +20,7 @@ copy.addEventListener('click', () => {
 
 function RandomPassword(length = 16) {
 
-    const charset = "QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm1234567890-!@#$%^&*()-_[]<>/?+";
+    const charset = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 
     let password = "";
 
